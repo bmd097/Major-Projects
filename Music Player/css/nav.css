@@ -1,0 +1,111 @@
+.nav_bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(8, 23, 51);
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+}
+.nav_logo img {
+  height: 70px;
+  width: 70px;
+}
+.nav-text {
+  margin-left: 8px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-text h1 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+.nav-text p {
+  color: white;
+  font-size: 20px;
+}
+.nav-user {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+}
+.nav-search {
+  display: flex;
+  align-items: center;
+  background: rgb(14, 47, 107);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.nav-search input {
+  width: 280px;
+  padding: 10px 14px;
+  font-size: 22px;
+  outline: none;
+  color: white;
+  background: rgb(13, 42, 97);
+  border: none;
+}
+.nav-search input::placeholder {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.nav-search p {
+  margin: 0px 10px;
+  font-size: 25px;
+  color: white;
+  border-left: solid rgb(219, 217, 217) 2px;
+  padding-left: 10px;
+}
+.nav-search p:active {
+  transform: scale(0.9);
+}
+.nav-user > p {
+  margin: 0px 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.nav-user > p:active {
+  transform: scale(0.9);
+}
+.nav-user > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.nav-user > img:active {
+  transform: scale(0.93);
+}
+.nav-notification {
+  position: absolute;
+  height: 500px;
+  top: 70px;
+  right: 0px;
+  width: 400px;
+  background: rgb(27, 11, 68);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 50px;
+  display: none;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8);
+}
+.nav-notification > p {
+  width: 50%;
+  background: white;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

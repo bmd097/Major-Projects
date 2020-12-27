@@ -1,0 +1,56 @@
+.stations{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: rgb(6, 6, 61);
+}
+.__station{
+    height: 180px;
+    min-width: 180px;
+    max-width: 180px;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+}
+.__station:hover{
+    animation: bounce 0.5s 4 ease-in-out alternate;
+}
+@keyframes bounce{
+    50%{
+        transform: translate(5px);
+    }
+}
+.__station:active{
+    transform: scale(0.95);
+}
+.__station img{
+    width: 100%;
+    height: 100%;
+}
+.__station p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.__station:nth-of-type(1) p{
+    background: rgba(255, 0, 234, 0.233);
+}
+.__station:nth-of-type(2) p{
+    background: rgba(0, 0, 0, 0.233);
+}
+.__station:nth-of-type(3) p{
+    background: rgba(255, 166, 0, 0.233);
+}

@@ -1,0 +1,195 @@
+[
+    {
+        "name":"Ariana Grande",
+        "pic":"images/ariana_grande.jpg",
+        "cover":"images/arianagrandecover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "status":"",
+                "genre":"love chill roadtrip",
+                "url":"assets/Ariana_Grande_7_Rings.mp3",
+                "pic":"images/ariana_grande_7_rings.jpg"
+            },
+            {
+                "status":"",
+                "genre":"love workout pop party electronic",
+                "url":"assets/Ariana_Grande_feat_Nicki_Minaj_Side_To_Side.mp3",
+                "pic":"images/ariana_grande_sidetoside.jpg"
+            },
+            {
+                "status":"",
+                "genre":"love workout pop party electronic",
+                "url":"assets/Jessie_J_Ft_Nicki_Minaj_And_Ariana_Grande_Bang_Bang.mp3",
+                "pic":"images/bang_bang.jpg"
+            },
+            {
+                "status":"latest",
+                "genre":"love pop party",
+                "url":"assets/Lady_Gaga_feat_Ariana_Grande_Rain_On_Me.mp3",
+                "pic":"images/rain_on_me.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Drake",
+        "pic":"images/drake.jpg",
+        "cover":"images/drake_cover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "status":"",
+                "genre":" workout chill rock party electronic",
+                "status":"latest",
+                "url":"assets/Drake_feat_Rick_Ross_Money_In_The_Grave.mp3",
+                "pic":"images/moneyinthegrave.jpg"
+            },
+            {
+                "status":"",
+                "genre":"love chill roadtrip party",
+                "url":"assets/Rihanna_feat_Drake_Work.mp3",
+                "pic":"images/work.jpg"
+            },
+            {
+                "status":"",
+                "genre":" chill roadtrip",
+                "url":"assets/Chris_Brown_feat_Drake_No_Guidance.mp3",
+                "pic":"images/drifting.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Mabel",
+        "pic":"images/mabel.jpg",
+        "cover":"images/mabel_cover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "genre":"love workout pop party",
+                "status":"latest",
+                "url":"assets/Clean_Bandit_and_Mabel_-_Tick_Tock_ft_24kGoldn_NairaTeam.com.mp3",
+                "pic":"images/tick_tock.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Migos",
+        "pic":"images/migos.jpg",
+        "cover":"images/migos_cover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "genre":" workout chill party ",
+                "status":"",
+                "url":"assets/Migos_feat_Lil_Uzi_Vert_Bad_and_Boujee.mp3",
+                "pic":"images/bad_and_bougee.jpg"
+            },
+            {
+                "genre":"love pop electronic",
+                "status":"",
+                "url":"assets/Katy_Perry_feat_Migos_Bon_Appetit.mp3",
+                "pic":"images/bon_apetat.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Bebe Rexha",
+        "pic":"images/bebe_rexha.jpg",
+        "cover":"images/bebe_rexha_cover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "genre":" chill roadtrip electronic",
+                "status":"",
+                "url":"assets/Bebe_Rexha_feat_Florida_Georgia_Line_Meant_to_Be.mp3",
+                "pic":"images/meant_to_be.jpg"
+            },
+            {
+                "genre":" chill pop electronic party",
+                "status":"",
+                "url":"assets/Bebe_Rexha_Im_A_Mess.mp3",
+                "pic":"images/imamess.jpg"
+            },
+            {
+                "genre":" chill rock electronic",
+                "status":"",
+                "url":"assets/G_Eazy_feat_Bebe_Rexha_Me_Myself_And_I.mp3",
+                "pic":"images/me_myself_i.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Cardi B",
+        "pic":"images/cardib.jpg",
+        "cover":"images/cardibcover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "genre":"love workout pop party",
+                "status":"latest",
+                "url":"assets/Cardi_B_feat_Megan_Thee_Stallion_Wap.mp3",
+                "pic":"images/wap.jpeg"
+            }
+        ]
+    },
+    {
+        "name":"Chris Brown",
+        "pic":"images/chris_brown.jpg",
+        "cover":"images/chris_brown_cover.jpg",
+        "status":"middle",
+        "music":[
+            {
+                "genre":" chill roadtrip electronic",
+                "status":"",
+                "url":"assets/Chris_Brown_feat_Drake_No_Guidance.mp3",
+                "pic":"images/noguidence.jpg"
+            },
+            {
+                "genre":" chill roadtrip",
+                "status":"",
+                "url":"assets/G_Eazy_feat_Chris_Brown_And_Tory_Lanez_Drifting.mp3",
+                "pic":"images/drifting.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Kate Perry",
+        "pic":"images/katyperry.jpg",
+        "cover":"images/katyperry_cover.jpg",
+        "status":"popular",
+        "music":[
+            {
+                "genre":"love party",
+                "status":"",
+                "url":"assets/Katy_Perry_feat_Migos_Bon_Appetit.mp3",
+                "pic":"images/bon_apetat.jpg"
+            },
+            {
+                "genre":"love workout pop party",
+                "status":"",
+                "url":"assets/Katy_Perry_Roar.mp3",
+                "pic":"images/roar.jpg"
+            }
+        ]
+    },
+    {
+        "name":"G Eazy",
+        "pic":"images/g_eazy.jpg",
+        "cover":"images/geazy_cover.jpg",
+        "status":"middle",
+        "music":[
+            {
+                "genre":" chill rock electronic",
+                "status":"",
+                "url":"assets/G_Eazy_feat_Bebe_Rexha_Me_Myself_And_I.mp3",
+                "pic":"images/me_myself_i.jpg"
+            },
+            {
+                "genre":" chill roadtrip",
+                "status":"",
+                "url":"assets/G_Eazy_feat_Chris_Brown_And_Tory_Lanez_Drifting.mp3",
+                "pic":"images/drifting.jpg"
+            }
+        ]
+    }
+]

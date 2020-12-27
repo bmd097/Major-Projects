@@ -1,0 +1,93 @@
+.item-song{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease-in-out 0.2s;
+}
+.item-song:hover{
+    background: rgb(28, 12, 99);
+}
+.item-song>div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.dance-div{
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.dance-div p{
+    color: rgb(213, 214, 213);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.dance-div div{
+    display: flex;
+    height: 20px;
+}
+.dance-div div div{
+    width: 3.5px;
+    border-radius: 1px;
+    align-self: flex-end;
+    transition: all ease-in-out 0.08s ;
+    margin: 0px 1px;
+    background: linear-gradient(to right bottom,rgb(112, 202, 255),rgb(45, 178, 255));
+}
+.item-song .item-img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-right: 8px;
+    box-shadow: rgba(255, 255, 255, 0.377) 0px 0px 7px;
+}
+.item-img h1{
+    display: none;
+    font-family: 'Lato', sans-serif;
+}
+.item-img p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.596);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    display: none;
+}
+.item-song:hover .item-img p{
+    display: flex;
+}
+.item-img img{
+    width: 100%;
+    height: 100%;
+}
+.item-info{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-info h2{
+    font-size: 27px;
+    color: white;
+}
+.item-info p{
+    color: rgb(196, 196, 196);
+    font-size: 15px;
+}
+.item-controls{
+    margin-right: 12px;
+}
+.item-controls p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    transition: all ease-in-out 0.3s;
+}

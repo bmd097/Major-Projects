@@ -1,0 +1,36 @@
+.__latest_carousal{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    background: var(--bg);
+}
+.__latest_carousal figure{
+    width: 70%;
+    height: 75%;
+    transition: all ease-in-out 0.4s;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.__main_view{
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.356) 0px 0px 100px;
+}
+.__left_view{
+    top: 50%;
+    left: 0px;
+    opacity: 0.6;
+    z-index: 10;
+    transform: translateY(-50%) scale(0.9);
+}
+.__right_view{
+    top: 50%;
+    opacity: 0.6;
+    right: 0px;
+    z-index: 10;
+    transform: translateY(-50%) scale(0.9);
+}

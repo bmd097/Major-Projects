@@ -1,0 +1,4 @@
+Hey here fetch() is called from my fake data.txt So please download and run it in visual code run with live server or any your server
+which maintains http:// or https:// fetch does not support file:// CORS Policy
+
+Unzip and open index.html

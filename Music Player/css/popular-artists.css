@@ -1,0 +1,66 @@
+.popular-artists{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg);
+}
+.popular-artists h1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-left: 10px;
+}
+.popular_artists_display{
+    width: 100%;
+    display: flex;
+    height: 85%;
+    overflow: auto;
+}
+.__pop-artist{
+    height: 260px;
+    min-width: 260px;
+    max-width: 260px;
+    background: chartreuse;
+    position: relative;
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-right: 7px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.__pop-artist:active{
+    transform:scale(0.9);
+}
+.__pop-artist img{
+    height: 100%;
+    width: 260px;
+}
+.__pop-artist p{
+    position: absolute;
+    width: 260px;
+    height: 100%;
+    left: 50%;
+    font-family: 'Lato', sans-serif;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%) scale(0.8);
+    top: 0%;
+    opacity: 0;
+    text-align: center;
+    border-radius: 40%;
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.74);
+}
+.__pop-artist:hover p{
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
